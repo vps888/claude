@@ -26,7 +26,7 @@
 * [三网优化VPS，加速静态IP的访问（建议，最便宜的每年50$）](https://github.com/vps888/vps2605)
 * Apple Store订阅方式：iPhone手机（iPad不行） + 美区Apple ID（免费+86注册，务必设置美区IP） + 支付宝购买美区Apple礼品卡
 * Google Play订阅方式：没探索，据说可以绑定国内发行的外币信用卡（VISA/万事达MasterCard）就可以。
-* 其他支付方式：比如美区Paypal、海外虚拟信用卡、U卡（大型加密货币交易所发行的银行卡）、代充（闲鱼、淘宝等等），单独聊。
+* 其他支付方式：比如美区Paypal、海外虚拟信用卡、U卡（大型加密货币交易所发行的银行卡）、代充（闲鱼、**淘宝(可开发票)**等等），单独聊。
 * Apple Store不同区订阅价格对比，挑选最低价：[https://appstoreprice.org/zh](https://appstoreprice.org/zh)，例如：Claude订阅所有套餐都是尼日利亚区最便宜；Chatgpt的plus是土耳其区最便宜，pro 5x（100刀）是阿根廷和美国，pro 20x（200刀）是菲律宾区最便宜。
 
 ## 3️⃣ 环境准备
