@@ -2,6 +2,8 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 [![Updated](https://img.shields.io/badge/Updated-May_2026-blue)]()
 
+> 【更新】2026.06.17 [【新增今年最具性价比的CN2 VPS，2C4G40G 2T，年388RMB】](https://github.com/vps888/vps2605)
+
 > 专注于解决国内用户订阅 Claude 时遇到的封号、支付失败、账号无法登录等核心痛点。
 > **核心优势：** 0 基础上手、官方支付通道、极致防封权重、综合成本全网最低。
 
