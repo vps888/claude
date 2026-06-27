@@ -33,6 +33,7 @@
 
 * [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](https://iproyal.cn/?r=1309628)
 * [三网优化VPS，加速静态IP的访问（建议，最便宜的每年50$）](https://github.com/vps888/vps2605)
+* [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，不想自己搭 VPS 的可以先短周期试用
 * Apple Store订阅方式：iPhone手机（iPad不行） + 美区Apple ID（免费+86注册，务必设置美区IP） + 支付宝购买美区Apple礼品卡
 * Google Play订阅方式：没探索，据说可以绑定国内发行的外币信用卡（VISA/万事达MasterCard）就可以。
 * 其他支付方式：比如美区Paypal、海外虚拟信用卡、U卡（大型加密货币交易所发行的银行卡）、代充（闲鱼、**淘宝(可开发票)** 等等），单独聊。
@@ -52,7 +53,7 @@
 
    * 方式一，自己搭，操作简单，稳定，质量高。[1️⃣VPS 选择教程](https://github.com/vps888/vps2605),   [2️⃣5 分钟手把手教你把 VPS 搭建成 VPN代理教程](https://github.com/vps888/vpn/blob/main/5%20%E5%88%86%E9%92%9F%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8A%8A%20VPS%20%E6%90%AD%E5%BB%BA%E6%88%90%20VPN%E4%BB%A3%E7%90%86%EF%BC%882026%EF%BC%89.md)
 
-   * 方式二，买成品，更省心，不过要鉴别质量和稳定性，尤其是最近严查。筛选了好久发现，很多VPN大牌要么停止注册新用户，要么涨价离谱，强烈建议使用方式一吧，自给自足，丰衣足食。
+   * 方式二，买成品机场，更省心，不过要鉴别质量和稳定性。如果你不想自己搭 VPS，可以先看我整理的 [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，先短周期试用，确认你所在地区和晚高峰表现都没问题，再考虑长期用。
 
 6. 代理加速，有了代理之后，通过“链式代理”的方式为静态IP加速，其请求路由是：本机请求-->代理-->静态IP-->Claude/Codex等服务器。参考：https://github.com/vps888/vpn
 
