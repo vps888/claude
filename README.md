@@ -31,7 +31,7 @@
 * Proton邮箱，用于注册Claude账号（免费）
 * [灰熊SMS，用于接码验证claude手机号（建议，每号0.3$，国内支付，便宜）](https://grizzlysms.com/cn/?r=1502069)
 
-* [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](https://iproyal.cn/?r=1309628)
+* [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](https://iproyal.com/?r=1309628)
 * [三网优化VPS，加速静态IP的访问（建议，最便宜的每年50$）](https://github.com/vps888/vps2605)
 * [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，不想自己搭 VPS 的可以先短周期试用
 * Apple Store订阅方式：iPhone手机（iPad不行） + 美区Apple ID（免费+86注册，务必设置美区IP） + 支付宝购买美区Apple礼品卡
@@ -47,7 +47,7 @@
 
 3. 改语言为英语，把中文直接删掉（用一用就习惯了）。
 
-4. 买一个[美国静态住宅IP（4$）](https://iproyal.cn/?r=1309628)，把当前系统的时区改成和IP一样的，关闭自动设置时区/时间功能。这个IP对我们网络来说往往会很差，所以需要一个代理来加速。
+4. 买一个[美国静态住宅IP（4$）](https://iproyal.com/?r=1309628)，把当前系统的时区改成和IP一样的，关闭自动设置时区/时间功能。这个IP对我们网络来说往往会很差，所以需要一个代理来加速。
 
 5. 获取代理：
 
