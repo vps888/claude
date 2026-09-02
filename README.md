@@ -32,6 +32,7 @@
 * [灰熊SMS，用于接码验证claude手机号（建议，每号0.3$，国内支付，便宜）](https://grizzlysms.com/cn/?r=1502069)
 
 * [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](https://iproyal.com/?r=1309628)
+* [如何在IPRoyal上选择一个干净的静态住宅IP（ISP）](./如何在IPRoyal上选择一个干净的静态住宅IP（ISP）.md)
 * [三网优化VPS，加速静态IP的访问（建议，最便宜的每年50$）](https://github.com/vps888/vps2605)
 * [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，不想自己搭 VPS 的可以先短周期试用
 * Apple Store订阅方式：iPhone手机（iPad不行） + 美区Apple ID（免费+86注册，务必设置美区IP） + 支付宝购买美区Apple礼品卡
