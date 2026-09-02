@@ -1,13 +1,5 @@
----
-title: "如何在IPRoyal上选择一个干净的静态住宅IP（ISP）"
-description: "记录在 IPRoyal 选择静态住宅 ISP IP 的实操方法。"
-slug: "iproyal-static-isp-clean-ip-guide"
-pubDate: 2026-08-30
-order: 4
-category: "AI Coding"
-tags: ["IPRoyal", "静态住宅IP", "ISP代理", "Claude", "账号安全"]
-featured: false
----
+# 如何在IPRoyal上选择一个干净的静态住宅IP（ISP）
+
 
 今天更新一篇最近的一点关于如何从 [IPRoyal](https://iproyal.com/?r=1309628) 上选择一个干净好用的静态住宅IP，之前只考虑了纯净度一个指标。
 
