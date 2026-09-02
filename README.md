@@ -1,8 +1,14 @@
-# 2026 最新 Claude 订阅防封全攻略：小白也能搞定的低成本防封实操
+# 2026年9月最新 Claude 订阅防封全攻略：小白也能搞定的低成本防封实操
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
-[![Updated](https://img.shields.io/badge/Updated-May_2026-blue)]()
+[![Updated](https://img.shields.io/badge/Updated-Aug_2026-blue)]()
 
-> 【更新】2026.06.17 [【新增今年最具性价比的CN2 VPS，2C4G40G 2T，年388RMB】](https://github.com/vps888/vps2605)
+> 【更新】2026.08.30 优化静态IP选择、支付订阅等细节
+
+> 【更新】2026.07.26 [【海外支付、美股开户等详细教程】](https://zhetengxia.com/category/cross-border-money/)
+
+> 【更新】2026.06.30 [【新增今年最具性价比的CN2 VPS，2C4G40G 2T，年388RMB】](https://github.com/vps888/vps2605)
+
+> 【更新】2026.06.27：有些朋友不想自己搭 VPS，我补了一篇 [VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，适合先短周期试用。
 
 > 专注于解决国内用户订阅 Claude 时遇到的封号、支付失败、账号无法登录等核心痛点。
 > **核心优势：** 0 基础上手、官方支付通道、极致防封权重、综合成本全网最低。
@@ -15,9 +21,9 @@
 
 **以下只是根据我的个人经历总结的，不一定适用所有场景。**
 
-**主要因素**：短时间高强度使用+Bypass模式，5小时限额一到立马就用，而且不过半小时就用光了（恰好遇到那段时间Claude统计还有问题，都遇到了消耗明显过快的问题）。
+**主要因素**：IP要稳定，只要不出现国家级的跳变，往往问题不大。（我把这一条重新归类为主要因素，最近又发现了一些线索，往后看）
 
-**次要因素**：IP要稳定，只要不出现国家级的跳变，往往问题不大。
+**次要因素**：短时间高强度使用+Bypass模式，5小时限额一到立马就用，而且不过半小时就用光了（恰好遇到那段时间Claude统计还有问题，都遇到了消耗明显过快的问题）。
 
 **末次因素**：新号要养，不要一上来就咔咔猛干。
 
@@ -27,38 +33,41 @@
 
 基于上述个人分析，外加那篇探查文章，我踏上了第3次订阅之路。直接上干货，把整个订阅核心思路给出来，需要哪个看哪个。
 
-* [AdsPower指纹浏览器，用于构造不同浏览器环境，注册claude账号用（免费）](https://www.adspower.net/share/registor)
-* Proton邮箱，用于注册Claude账号（免费）
-* [灰熊SMS，用于接码验证claude手机号（建议，每号0.3$，国内支付，便宜）](https://grizzlysms.com/cn/?r=1502069)
+* [AdsPower指纹浏览器，用于创建不同指纹的浏览器环境，注册claude账号用（免费）](https://www.adspower.net/share/registor)
+* Proton邮箱，用于注册Claude账号（免费），**当然最好还是谷歌邮箱**。
+* 【更新】08.30，如果不是用的指纹浏览器，则要安装WebRTC防泄漏插件。Chrome上插件名字叫：`WebRTC Leak Prevention`
+* [灰熊SMS，用于接码验证claude手机号（建议，每号0.3$，国内支付，便宜）](https://grizzlysms.com/cn/?r=1502069)【更新】08.30，最近发现干净的IP可能不需要。
 
 * [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](https://iproyal.com/?r=1309628)
 * [如何在IPRoyal上选择一个干净的静态住宅IP（ISP）](./如何在IPRoyal上选择一个干净的静态住宅IP（ISP）.md)
 * [三网优化VPS，加速静态IP的访问（建议，最便宜的每年50$）](https://github.com/vps888/vps2605)
 * [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，不想自己搭 VPS 的可以先短周期试用
-* Apple Store订阅方式：iPhone手机（iPad不行） + 美区Apple ID（免费+86注册，务必设置美区IP） + 支付宝购买美区Apple礼品卡
-* Google Play订阅方式：没探索，据说可以绑定国内发行的外币信用卡（VISA/万事达MasterCard）就可以。
-* 其他支付方式：比如美区Paypal、海外虚拟信用卡、U卡（大型加密货币交易所发行的银行卡）、代充（闲鱼、**淘宝(可开发票)** 等等），单独聊。
-* Apple Store不同区订阅价格对比，挑选最低价：[https://appstoreprice.org/zh](https://appstoreprice.org/zh)，例如：Claude订阅所有套餐都是尼日利亚区最便宜；Chatgpt的plus是土耳其区最便宜，pro 5x（100刀）是阿根廷和美国，pro 20x（200刀）是菲律宾区最便宜。
+* ~~Google Play订阅：没探索，据说可以绑定国内发行的外币信用卡（VISA/万事达MasterCard）就可以。~~ 【更新】08.30，不建议这条路。原因1：近期容易封号，通常是因为GooglePlay+国内银行卡的缘故；原因2：支付超过48小时后再封号，GooglePlay不给退款（可恶）。
+* 代充：【更新】08.30，闲鱼上直接搜，都能搜到，而且是免登录那种，相对安全很多。有一些对掉订阅有质保，但是通常都对封号没有质保。即时质保封号也会价格非常规（个人觉得没必要）。
+* [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，不想自己搭 VPS 的可以先短周期试用
+* Apple Store订阅：iPhone手机（iPad不行） + 美区Apple ID（免费+86注册，务必挂美IP代理） + 支付宝购买美区Apple礼品卡
+* 其他支付方式：参考最近整理的[海外支付系列文章](https://zhetengxia.com/category/cross-border-money/)， 比如美区Paypal、海外虚拟信用卡、U卡（大型加密货币交易所发行的银行卡）、代充（闲鱼、**淘宝(可开发票)** 等等），单独聊。
+* ~~Apple Store不同区订阅价格对比，挑选最低价：[https://appstoreprice.org/zh](https://appstoreprice.org/zh)，例如：Claude订阅所有套餐都是尼日利亚区最便宜；Chatgpt的plus是土耳其区最便宜，pro 5x（100刀）是阿根廷和美国，pro 20x（200刀）是菲律宾区最便宜。~~ 【更新】08.30，价格洼地没了，就用美区Apple Store吧。
 
 ## 3️⃣ 环境准备
 
 1. 按照探查文章中说的，需要清空`~/.claude.json`和`~/.claude`目录。我选了一个更加彻底的方式：操作系统多用户，再创建一个新的普通用户，环境绝对全新，缺点是要重新配置一下环境。
 
-2. 新环境建议换个git全局邮箱
+2. 新环境建议换个git全局`邮箱`
 
-3. 改语言为英语，把中文直接删掉（用一用就习惯了）。
+3. 改`语言`为英语，把中文直接删掉（用一用就习惯了）。
 
-4. 买一个[美国静态住宅IP（4$）](https://iproyal.com/?r=1309628)，把当前系统的时区改成和IP一样的，关闭自动设置时区/时间功能。这个IP对我们网络来说往往会很差，所以需要一个代理来加速。
+4. 买一个[美国静态住宅IP（4$）](https://iproyal.com/?r=1309628)，把当前系统的`时区`改成和IP一样的，`关闭`自动设置时区/时间功能。如果直接把这个IP设置为代理，通常访问网络会非常慢慢，所以建议增加一个网络质量好的代理来中继加速。 【更新】08.30，参考[如何在IPRoyal上选择一个干净的静态住宅IP（ISP）](https://zhetengxia.com/blog/iproyal-static-isp-clean-ip-guide)
 
-5. 获取代理：
+5. 如何获取质量好的代理：
 
    * 方式一，自己搭，操作简单，稳定，质量高。[1️⃣VPS 选择教程](https://github.com/vps888/vps2605),   [2️⃣5 分钟手把手教你把 VPS 搭建成 VPN代理教程](https://github.com/vps888/vpn/blob/main/5%20%E5%88%86%E9%92%9F%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%8A%8A%20VPS%20%E6%90%AD%E5%BB%BA%E6%88%90%20VPN%E4%BB%A3%E7%90%86%EF%BC%882026%EF%BC%89.md)
 
    * 方式二，买成品机场，更省心，不过要鉴别质量和稳定性。如果你不想自己搭 VPS，可以先看我整理的 [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，先短周期试用，确认你所在地区和晚高峰表现都没问题，再考虑长期用。
 
-6. 代理加速，有了代理之后，通过“链式代理”的方式为静态IP加速，其请求路由是：本机请求-->代理-->静态IP-->Claude/Codex等服务器。参考：https://github.com/vps888/vpn
+6. 代理加速，有了代理之后，通过`链式代理`的方式为静态IP加速，其请求路由是：本机请求-->代理服务器-->静态IP服务器-->Claude/Codex等服务器。参考：[5 分钟手把手教你把 VPS 搭建成 VPN代理教程](https://zhetengxia.com/blog/vps-vpn-proxy-setup-2026)
 
-7. 路由规则（独家秘籍），务必把下列站点添加到规则中，必须走静态IP：
+7. ~~路由规则（独家秘籍），务必把下列站点添加到规则中，必须走静态IP：~~
 
    ```
    # Claude 系列站点
@@ -74,17 +83,21 @@
     browserleaks.*
    ```
 
+7. 【更新】08.30，关于代理的使用，之前是建议Claude/Codex等服务走静态IP，其余的走本地IP。但是这样会存在一个问题：Claude等执行时访问的请求域名会有很多，如果只把常见的设置为走代理，就会漏掉一些请求，这样就会暴露真实IP。所以更建议的规则是：
+   * 方式一：指定`国内域名/IP`用直连方式走`本地IP`，其余都走`静态IP`。这样能防止Claude偷偷请求一些我们不知道的域名。适合场景：工作和生活两用，但是建议工作和生活分开，毕竟安全第一。
+   * 方式二（强烈建议）：如果流量充足且网路质量好，建议把`静态IP`挂为`全局代理`，尤其是使用Claude的时候。适合场景：纯工作用，国内请求比较少。
+
 8. 环境检测
 
-   * IP纯净度测试：https://scamalytics.com/ip，先看看自己买的静态IP是否干净
+   * IP纯净度测试：[https://scamalytics.com/ip](https://scamalytics.com/ip)，先看看自己买的静态IP是否干净
 
-   * 网站分流测试：https://ip.skk.moe/split-tunnel，主要观察claude.ai、anthropic.com的出口IP是否是静态IP。👇
+   * 网站分流测试：[https://ip.skk.moe/split-tunnel](https://ip.skk.moe/split-tunnel)，主要观察claude.ai、anthropic.com的出口IP是否是静态IP。👇
 
      
 ![2026最新Claude订阅-低成本防封方案-网站分流测试效果图](https://img2024.cnblogs.com/blog/3599704/202605/3599704-20260509125530973-267078733.png)
 
 
-   * DNS泄露测试：https://browserleaks.com/dns，主要观察测试结果是否全是美国IP，尤其不要出现国内IP。👇
+   * DNS泄露测试：[https://browserleaks.com/dns](https://browserleaks.com/dns)，主要观察测试结果是否全是美国IP，尤其不要出现国内IP。👇
 
 
 ![2026最新Claude订阅-低成本防封方案-DNS泄露测试效果图](https://img2024.cnblogs.com/blog/3599704/202605/3599704-20260509125552850-1087167730.png)
@@ -138,7 +151,7 @@ Apple Store首次支付可能会遇到风控（我就遇到了），提示**Purc
 
 强烈建议先订阅Pro用的稳定之后，再订阅Max。
 
-Apple Store的支付前边说了，建议使用礼品卡，这个最方便。如果还想摸索海外支付的，待我后续补充。
+Apple Store的支付前边说了，建议使用礼品卡，这个最方便。如果还想摸索海外支付的，参考[海外支付系列文章](https://zhetengxia.com/category/cross-border-money/)。
 
 ## 6️⃣ 使用
 
@@ -156,3 +169,7 @@ Apple Store的支付前边说了，建议使用礼品卡，这个最方便。如
 遇到问题欢迎评论区留言，敏感问题私聊。
 
 最后祝大家AI Coding顺利平安，别忘了点个赞。
+
+## 原文链接
+
+https://zhetengxia.com/blog/claude-subscription-anti-ban-guide
