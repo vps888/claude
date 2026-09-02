@@ -13,15 +13,15 @@ featured: false
 
 1. **打开 [IPRoyal](https://iproyal.com/?r=1309628) 网站**，购买静态住宅IP选择 `ISP`，选择国家（建议`美国`），可以先选1个月，看看IP质量如何。
 
-   <img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830110621396.png" alt="image-20260830110621396" style="zoom:80%;" />
+   <img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830110621396.png" alt="image-20260830110621396" style="zoom:80%;" />
 
 2. **选择欺诈评分等级**，建议选择`高级版`，多花**35%**的费用，服务商保持默认的`Scamalytics`。
 
-   <img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830110641203.png" alt="image-20260830110641203" style="zoom:80%;" />
+   <img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830110641203.png" alt="image-20260830110641203" style="zoom:80%;" />
 
 3. **选择附加服务**，建议选择`添加额外要求`，多花**30%**的费用。
 
-   <img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830111023371.png" alt="image-20260830111023371" style="zoom:80%;" />
+   <img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830111023371.png" alt="image-20260830111023371" style="zoom:80%;" />
 
    平台本身提供了 6 种 IP 质量筛选方法，建议从如下几种方法中选择其一：
 
@@ -63,7 +63,7 @@ featured: false
 
 * [IPLocation](https://www.ip2location.com/demo)：主要查询`IP 地址在数据库中对应的网络归属和大致地理位置`
 
-<img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830114848156.png" alt="image-20260830114848156" style="zoom:50%;" />
+<img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830114848156.png" alt="image-20260830114848156" style="zoom:50%;" />
 
 ```text
 GPT解读这个信息如下：
@@ -75,7 +75,7 @@ GPT解读这个信息如下：
 
 * [IPinfo](https://ipinfo.io/8.8.8.8)：作用和`IPLocation`类似。
 
-<img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830115850842.png" alt="image-20260830115850842" style="zoom:50%;" />
+<img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830115850842.png" alt="image-20260830115850842" style="zoom:50%;" />
 
 ```text
 GPT分析结论：
@@ -87,11 +87,11 @@ GPT分析结论：
 
 * [Ping0](https://ping0.cc/ip)：查询IP纯净程度，也就是自动化脚本或恶意欺诈的概率。
 
-  <img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830120335633.png" alt="image-20260830120335633" style="zoom:50%;" />
+  <img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830120335633.png" alt="image-20260830120335633" style="zoom:50%;" />
 
 * [Scamalytics](https://scamalytics.com/ip)：和`Ping0`类似。
 
-<img src="/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830115047853.png" alt="image-20260830115047853" style="zoom:50%;" />
+<img src="https://zhetengxia.com/article-assets/iproyal-static-isp-clean-ip-guide/image-20260830115047853.png" alt="image-20260830115047853" style="zoom:50%;" />
 
 
 
