@@ -38,8 +38,7 @@
 * 【更新】08.30，如果不是用的指纹浏览器，则要安装WebRTC防泄漏插件。Chrome上插件名字叫：`WebRTC Leak Prevention`
 * [灰熊SMS，用于接码验证claude手机号（建议，每号0.3$，国内支付，便宜）](https://grizzlysms.com/cn/?r=1502069)【更新】08.30，最近发现干净的IP可能不需要。
 
-* [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](https://iproyal.com/?r=1309628)
-* [如何在IPRoyal上选择一个干净的静态住宅IP（ISP）](./如何在IPRoyal上选择一个干净的静态住宅IP（ISP）.md)
+* [美国静态住宅IP，用于稳定IP（建议，每月4$不限流量，国内支付，没找到更便宜的）](./如何在IPRoyal上选择一个干净的静态住宅IP（ISP）.md)
 * [三网优化VPS，加速静态IP的访问（建议，最便宜的每年50$）](https://github.com/vps888/vps2605)
 * [适合 Claude、ChatGPT 的稳定 VPN 机场推荐](https://zhetengxia.com/blog/claude-chatgpt-vpn-airport-recommendations-2026/)，不想自己搭 VPS 的可以先短周期试用
 * ~~Google Play订阅：没探索，据说可以绑定国内发行的外币信用卡（VISA/万事达MasterCard）就可以。~~ 【更新】08.30，不建议这条路。原因1：近期容易封号，通常是因为GooglePlay+国内银行卡的缘故；原因2：支付超过48小时后再封号，GooglePlay不给退款（可恶）。
